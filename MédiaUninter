@@ -1,0 +1,20 @@
+apol1 = int(input('Digite sua nota 1:'))
+peso1 = int(input('Digite a % do peso da nota:'))
+apol2 = int(input('Digite sua nota 2:'))
+peso2 = int(input('Digite a % do peso da nota:'))
+prova1 = int(input('Digite sua nota 3:'))
+peso3 = int(input('Digite a % do peso da nota:'))
+prova2 = int(input('Digite sua nota 4:'))
+peso4 = int(input('Digite a % do peso da nota:'))
+prova3 = int(input('Digite sua nota 5:'))
+peso5 = int(input('Digite a % do peso da nota:'))
+
+nota1 = apol1 * (peso1 / 100)
+nota2 = apol2 * (peso2 / 100)
+nota3 = prova1 * (peso3 / 100)
+nota4 = prova2 * (peso4 / 100)
+nota5 = prova3 * (peso5 / 100)
+
+media = nota1 + nota2 + nota3 + nota4 + nota5
+
+print('Sua media é {}'.format(media))
